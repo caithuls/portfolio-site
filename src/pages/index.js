@@ -1,2 +1,7 @@
 import React from "react"
-export default() => <h1>Hello Gatsby!</h1>
+export default () => (
+  <div style={{ color: 'purple' }}>
+    <h1>Caitlin Hulsey</h1>
+    <h2>arts, code, comedy</h2>
+  </div>
+)

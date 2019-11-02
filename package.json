@@ -1,13 +1,19 @@
 {
   "name": "portfolio-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Caitlin Hulsey",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caithuls/portfolio-site.git"
+  },
+  "author": "Caitlin Hulsey",
   "license": "ISC",
   "dependencies": {
     "gatsby": "^2.17.7",
