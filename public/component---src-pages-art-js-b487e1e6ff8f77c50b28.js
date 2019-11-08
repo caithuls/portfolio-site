@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{QHRp:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("Bl7J"),r=a("vrFN");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(r.a,{keywords:["gatsby","tailwind","react","tailwindcss"],title:"About"}),l.a.createElement("section",{className:"flex flex-col md:flex-row items-center"},l.a.createElement("div",{className:"md:w-2/3 md:mr-8"})))}}}]);
-//# sourceMappingURL=component---src-pages-art-js-b487e1e6ff8f77c50b28.js.map

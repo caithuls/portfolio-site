@@ -8,7 +8,7 @@ function ArtPage() {
     <Layout>
       <SEO
         keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
-        title="About"
+        title="Art"
       />
 
       <section className="flex flex-col md:flex-row items-center">
