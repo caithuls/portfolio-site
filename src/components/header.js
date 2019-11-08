@@ -43,10 +43,14 @@ function Header() {
         >
           {[
             {
+              route: '/',
+              title: 'Home'
+            },
+            {
               route: '/about',
               title: 'About'
             },
-            {
+            /*{
               route: '/code',
               title: 'Code'
             },
@@ -57,7 +61,7 @@ function Header() {
             {
               route: '/art',
               title: 'Art'
-            },
+            },*/
             {
               route: '/contact',
               title: 'Contact'
