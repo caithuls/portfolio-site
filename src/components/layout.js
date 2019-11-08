@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import React from "react";
 
 import Header from "./header";
+import Footer from "./footer";
 
 function Layout({ children }) {
   return (
@@ -12,28 +13,7 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-purple-700">
-        <nav className="flex justify-between max-w-4xl mx-auto p-4 md:p-8 text-sm">
-          <p className="text-white">
-            Created by {` `}
-            <a
-              className="font-bold no-underline text-white"
-              href="http://www.caitlinhulsey.com"
-            >
-              Caitlin Hulsey
-            </a>
-          </p>
-          <p className="text-white">
-            Adapted from{` `}
-            <a
-              className="font-bold no-underline text-white"
-              href="https://www.gatsbyjs.org/starters/taylorbryant/gatsby-starter-tailwind/"
-            >
-              Gatsby Starter Tailwind
-            </a>
-          </p>
-        </nav>
-      </footer>
+      <Footer />
     </div>
   );
 }

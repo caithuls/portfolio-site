@@ -19,7 +19,7 @@ function IndexPage() {
           src={folds}
         />
         <h2 className="bg-green-400 text-2xl font-bold inline-block my-8 p-3">
-          arts, code, comedy
+          code, comedy, arts
         </h2>
       </section>
     </Layout>
