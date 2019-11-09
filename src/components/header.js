@@ -55,8 +55,8 @@ function Header() {
               title: 'Code'
             },
             {
-              route: '/writing',
-              title: 'Writing'
+              route: '/comedy',
+              title: 'Comedy'
             },
             {
               route: '/art',
