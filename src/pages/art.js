@@ -7,7 +7,7 @@ function ArtPage() {
   return (
     <Layout>
       <SEO
-        keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+        keywords={[`art`, `paint`, `draw`]}
         title="Art"
       />
 

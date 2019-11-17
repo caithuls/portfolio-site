@@ -19,7 +19,8 @@
     "prop-types": "15.7.2",
     "react": "16.11.0",
     "react-dom": "16.11.0",
-    "react-helmet": "5.2.1"
+    "react-helmet": "5.2.1",
+    "react-icons": "^3.8.0"
   },
   "keywords": [
     "gatsby",
@@ -59,9 +60,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind"
+    "url": "https://github.com/caithuls/portfolio-site"
   },
   "bugs": {
-    "url": "https://github.com/taylorbryant/gatsby-starter-tailwind/issues"
+    "url": "https://github.com/caithuls/portfolio-site/issues"
   }
 }

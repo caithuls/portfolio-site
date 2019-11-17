@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{QHRp:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),r=a.n(n),l=a("Bl7J"),c=a("vrFN");t.default=function(){return r.a.createElement(l.a,null,r.a.createElement(c.a,{keywords:["art","paint","draw"],title:"Art"}),r.a.createElement("section",{className:"flex flex-col md:flex-row items-center"},r.a.createElement("div",{className:"md:w-2/3 md:mr-8"})))}}}]);
+//# sourceMappingURL=component---src-pages-art-js-c9a959449af7de64b6a7.js.map

@@ -1,16 +1,30 @@
 [
     {
-        "name": "",
-        "size": "",
-        "surface": "",
-        "medium": "",
-        "year": ""
+        "name": "Growth",
+        "size": "14x11in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
     },
     {
-        "name": "",
-        "size": "",
-        "surface": "",
-        "medium": "",
-        "year": ""
+        "name": "Chaos",
+        "size": "14x11in",
+        "surface": "Medium weight paper",
+        "medium": "Marker, pen, paint pen",
+        "year": "2019"
+    },
+    {
+        "name": "Stretch",
+        "size": "12x9in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
+    },
+    {
+        "name": "Bend",
+        "size": "12x9in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
     }
 ]
