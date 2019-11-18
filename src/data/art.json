@@ -1,6 +1,7 @@
 [
     {
         "name": "Growth",
+        "img": "growth.png",
         "size": "14x11in",
         "surface": "Medium weight paper",
         "medium": "Marker and pen",
@@ -8,23 +9,18 @@
     },
     {
         "name": "Chaos",
+        "img": "chaos.png",
         "size": "14x11in",
         "surface": "Medium weight paper",
         "medium": "Marker, pen, paint pen",
         "year": "2019"
     },
     {
-        "name": "Stretch",
-        "size": "12x9in",
-        "surface": "Medium weight paper",
-        "medium": "Marker and pen",
-        "year": "2019"
-    },
-    {
         "name": "Bend",
-        "size": "12x9in",
+        "img": "beng.png",
+        "size": "9x12in",
         "surface": "Medium weight paper",
-        "medium": "Marker and pen",
+        "medium": "Marker, pen, paint pen",
         "year": "2019"
     }
 ]

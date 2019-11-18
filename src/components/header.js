@@ -57,11 +57,11 @@ function Header() {
             {
               route: '/comedy',
               title: 'Comedy'
-            },
+            },*/
             {
               route: '/art',
               title: 'Art'
-            },*/
+            },
             {
               route: '/contact',
               title: 'Contact'
