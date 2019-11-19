@@ -16,19 +16,22 @@ const ArtPage = props => (
         const image = props.data.artImages.edges.find(n => {
           return n.node.relativePath === art.img;
         });
-        return (
-        <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
-          <div className="rounded overflow-hidden shadow-lg">
-            <Img
-              className="w-full"
-              fluid={image.node.childImageSharp.fluid}
-            />
-            <div className="px-6 py-2 flex text-center">
-              <div className="w-full font-bold text-md text-center mb-2">{art.name}</div>
+        if (typeof image !== undefined ) {
+          return (
+          <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
+            <div className="rounded overflow-hidden shadow-lg">
+              <Img
+                className="w-full"
+                fluid={image.node.childImageSharp.fluid}
+              />
+              <div className="px-6 py-2 flex text-center">
+                <div className="w-full font-bold text-md text-center mb-2">{art.name}</div>
+              </div>
             </div>
           </div>
-        </div>
-        ); 
+          ); 
+        }
+        else return null
       })}
     </div> 
   </Layout>
