@@ -1,7 +1,7 @@
 [
     {
         "name": "Growth",
-        "img": "growth.png",
+        "img": "art/growth.png",
         "size": "14x11in",
         "surface": "Medium weight paper",
         "medium": "Marker and pen",
@@ -9,7 +9,7 @@
     },
     {
         "name": "Chaos",
-        "img": "chaos.png",
+        "img": "art/chaos.png",
         "size": "14x11in",
         "surface": "Medium weight paper",
         "medium": "Marker, pen, paint pen",
@@ -17,10 +17,34 @@
     },
     {
         "name": "Bend",
-        "img": "beng.png",
-        "size": "9x12in",
+        "img": "art/beng.png",
+        "size": "12x9in",
         "surface": "Medium weight paper",
-        "medium": "Marker, pen, paint pen",
+        "medium": "Marker and pen",
+        "year": "2019"
+    },
+    {
+        "name": "Stretch",
+        "img": "art/stretch.png",
+        "size": "12x9in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
+    },
+    {
+        "name": "Wave",
+        "img": "art/wave.png",
+        "size": "14x11in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
+    },
+    {
+        "name": "Underwater",
+        "img": "art/underwater.png",
+        "size": "14x11in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
         "year": "2019"
     }
 ]

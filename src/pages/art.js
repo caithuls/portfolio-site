@@ -3,101 +3,53 @@ import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import artList from "../data/art.json";
 
 const ArtPage = props => (
-    <Layout>
-      <SEO
-        keywords={[`art`, `paint`, `draw`]}
-        title="Art"
-      />
-      <div class="flex flex-wrap mt-2 mx-1">
+  <Layout>
+    <SEO
+      keywords={[`art`, `paint`, `draw`]}
+      title="Art"
+    />
+    <div class="flex flex-wrap mt-2 mx-1">
+      {props.data.artImages.edges.map(img => {
+        return (
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
           <div className="rounded overflow-hidden shadow-lg">
-            <Img 
+            <Img
               className="w-full"
-              fluid={props.data.growth.childImageSharp.fluid} 
-              alt={props.data.growth.name}
+              fluid={img.node.childImageSharp.fluid}
             />
             <div className="px-6 py-2">
-              <div className="font-bold text-md text-center mb-2">Growth</div>
+              <div className="font-bold text-md text-center mb-2">{img.node.name}</div>
             </div>
           </div>
         </div>
-        <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
-          <div className="rounded overflow-hidden shadow-lg">
-            <Img 
-              className="w-full"
-              fluid={props.data.chaos.childImageSharp.fluid} 
-              alt={props.data.chaos.name}
-            />
-            <div className="px-6 py-2">
-              <div className="font-bold text-md text-center mb-2">Chaos</div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
-          <div className="rounded overflow-hidden shadow-lg">
-            <Img 
-              className="w-full"
-              fluid={props.data.wave.childImageSharp.fluid} 
-              alt={props.data.wave.name}
-            />
-            <div className="px-6 py-2">
-              <div className="font-bold text-md text-center mb-2">Wave</div>
-            </div>
-          </div>
-        </div>
-        <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
-          <div className="rounded overflow-hidden shadow-lg">
-            <Img 
-              className="w-full"
-              fluid={props.data.bend.childImageSharp.fluid} 
-              alt={props.data.bend.name}
-            />
-            <div className="px-6 py-2">
-              <div className="font-bold text-md text-center mb-2">Bend</div>
-            </div>
-          </div>
-        </div>
-      </div> 
-    </Layout>
+        ); 
+      })}
+    </div> 
+  </Layout>
 )
 
 export default ArtPage;
 
-export const pageQuery = graphql`
-  query {
-    growth: file(relativePath: { eq: "art/growth.png" }) {
-      name
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
+export const query = graphql`
+query {
+  artImages: allFile( 
+    sort: { order: ASC, fields: [birthTime] }
+    filter: { relativePath: { regex: "/art/.*.png/" } } ) 
+  {
+    edges {
+      node {
+        relativePath
+        name
+        childImageSharp {
+          fluid(maxWidth: 500) {
+            ...GatsbyImageSharpFluid
+          }
         }
       }
     }
-    chaos: file(relativePath: { eq: "art/chaos.png" }) {
-      name
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    wave: file(relativePath: { eq: "art/wave.png" }) {
-      name
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    bend: file(relativePath: { eq: "art/bend.png" }) {
-      name
-      childImageSharp {
-        fluid(maxWidth: 500) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-  }
+  } 
+}
 `;
