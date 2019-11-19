@@ -30,7 +30,7 @@ export const pageQuery = graphql`
   query {
     folds: file(relativePath: { eq: "folds.png" }) {
       childImageSharp {
-        fluid(maxWidth: 1000) {
+        fluid(maxWidth: 500) {
           ...GatsbyImageSharpFluid
         }
       }

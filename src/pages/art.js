@@ -1,10 +1,8 @@
 import React from "react";
+import { graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import waveImg from "../images/art/wave.png";
-import chaosImg from "../images/art/chaos.png";
-import growthImg from "../images/art/growth.png";
-import bendImg from "../images/art/bend.png";
 
 const ArtPage = props => (
     <Layout>
@@ -15,10 +13,10 @@ const ArtPage = props => (
       <div class="flex flex-wrap mt-2 mx-1">
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
           <div className="rounded overflow-hidden shadow-lg">
-            <img
+            <Img 
               className="w-full"
-              src={growthImg}
-              alt="Growth"
+              fluid={props.data.growth.childImageSharp.fluid} 
+              alt={props.data.growth.name}
             />
             <div className="px-6 py-2">
               <div className="font-bold text-md text-center mb-2">Growth</div>
@@ -27,10 +25,10 @@ const ArtPage = props => (
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
           <div className="rounded overflow-hidden shadow-lg">
-            <img
+            <Img 
               className="w-full"
-              src={chaosImg}
-              alt="Chaos"
+              fluid={props.data.chaos.childImageSharp.fluid} 
+              alt={props.data.chaos.name}
             />
             <div className="px-6 py-2">
               <div className="font-bold text-md text-center mb-2">Chaos</div>
@@ -39,10 +37,10 @@ const ArtPage = props => (
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
           <div className="rounded overflow-hidden shadow-lg">
-            <img
+            <Img 
               className="w-full"
-              src={waveImg}
-              alt="Wave"
+              fluid={props.data.wave.childImageSharp.fluid} 
+              alt={props.data.wave.name}
             />
             <div className="px-6 py-2">
               <div className="font-bold text-md text-center mb-2">Wave</div>
@@ -51,10 +49,10 @@ const ArtPage = props => (
         </div>
         <div class="w-full md:w-1/2 lg:w-1/2 px-2 my-2">
           <div className="rounded overflow-hidden shadow-lg">
-            <img
+            <Img 
               className="w-full"
-              src={bendImg}
-              alt="Bend"
+              fluid={props.data.bend.childImageSharp.fluid} 
+              alt={props.data.bend.name}
             />
             <div className="px-6 py-2">
               <div className="font-bold text-md text-center mb-2">Bend</div>
@@ -66,3 +64,40 @@ const ArtPage = props => (
 )
 
 export default ArtPage;
+
+export const pageQuery = graphql`
+  query {
+    growth: file(relativePath: { eq: "art/growth.png" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    chaos: file(relativePath: { eq: "art/chaos.png" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    wave: file(relativePath: { eq: "art/wave.png" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    bend: file(relativePath: { eq: "art/bend.png" }) {
+      name
+      childImageSharp {
+        fluid(maxWidth: 500) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`;
