@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{DhPJ:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("Bl7J"),r=a("vrFN");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(r.a,{keywords:["gatsby","tailwind","react","tailwindcss"],title:"Code"}),l.a.createElement("section",{className:"flex flex-col md:flex-row items-center"},l.a.createElement("div",{className:"md:w-2/3 md:mr-8"})))}}}]);
-//# sourceMappingURL=component---src-pages-code-js-e1b64f2122f6ce54ef47.js.map

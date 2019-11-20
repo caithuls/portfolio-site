@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{qz1k:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("Bl7J"),r=a("vrFN");t.default=function(){return l.a.createElement(c.a,null,l.a.createElement(r.a,{keywords:["gatsby","tailwind","react","tailwindcss"],title:"Writing"}),l.a.createElement("section",{className:"flex flex-col md:flex-row items-center"},l.a.createElement("div",{className:"md:w-2/3 md:mr-8"})))}}}]);
-//# sourceMappingURL=component---src-pages-writing-js-28df827fb02a3fad31ac.js.map
