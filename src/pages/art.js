@@ -121,7 +121,7 @@ query {
         relativePath
         name
         childImageSharp {
-          fluid(maxWidth: 500) {
+          fluid(maxWidth: 1600) {
             ...GatsbyImageSharpFluid
           }
         }
