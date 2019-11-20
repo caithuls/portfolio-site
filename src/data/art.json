@@ -112,6 +112,22 @@
         "year": "2019"
     },
     {
+        "name": "Reef",
+        "img": "art/reef.png",
+        "size": "12x9in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
+    },
+    {
+        "name": "Fade",
+        "img": "art/fade.png",
+        "size": "12x9in",
+        "surface": "Medium weight paper",
+        "medium": "Marker and pen",
+        "year": "2019"
+    },
+    {
         "name": "Surface",
         "img": "art/surface.png",
         "size": "14x11in",
