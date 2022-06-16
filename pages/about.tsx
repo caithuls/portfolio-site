@@ -4,7 +4,7 @@ import  Image  from "next/image";
 import { StringProps } from "lib/types";
 import { devices } from "lib/displayDevice";
 import styled from "styled-components";
-import AboutPicture from "/public/assets/png/Caitlin.png";
+import AboutPicture from "public/assets/png/caitlin.png";
 
 export default function About() {
   return (
