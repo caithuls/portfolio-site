@@ -5,8 +5,7 @@ import Container from "components/Layout/Container";
 import { StringProps } from "lib/types";
 import { devices } from "lib/displayDevice";
 import { Flex } from "components/Layout/Container/styles";
-
-import ProfilePicture from "public/assets/png/folds.png";
+import ProfilePicture from "/public/assets/png/folds.png";
 
 export default function Home() {
   return (
