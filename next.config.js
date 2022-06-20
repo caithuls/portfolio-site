@@ -1,6 +1,11 @@
+const { truncate } = require("fs");
+
 module.exports = {
   future: {
     strictPostcssConfiguration: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
   reactStrictMode: true,
   async headers() {
