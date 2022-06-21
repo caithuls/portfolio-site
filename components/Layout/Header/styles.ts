@@ -27,8 +27,8 @@ export const StickyNav = styled.nav<StringProps>`
   }
 
   button {
-    margin-right: 2rem;
-    padding: 0.75rem;
+    margin-right: 0rem;
+    padding: 0.5rem;
     border-radius: 50%;
     width: 3rem;
     height: 3rem;
@@ -55,7 +55,7 @@ export const Wrapper = styled(Flex)<WrapperProps>`
   }
 
   a:first-child {
-    padding-right: 1rem;
+    padding-right: 0rem;
   }
 
   @media ${devices.mobileL} {
