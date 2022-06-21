@@ -17,7 +17,7 @@ export default function About() {
           height="200px"
         />
         <ContentWrapper>
-
+      
       <p>Caitlin Hulsey is a visual artist from South Carolina. 
         She uses acrylic paint, pens, and bold strokes to create textured pieces. 
         Caitlin also has a B.S. in Computer Science and experience in software and web development.
@@ -59,6 +59,8 @@ export const ContentWrapper = styled.div<StringProps>`
 
 const HeroFlex = styled(Flex)`
   @media ${devices.mobileL} {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 `;

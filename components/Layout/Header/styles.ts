@@ -62,7 +62,7 @@ export const Wrapper = styled(Flex)<WrapperProps>`
     padding: 2rem 0;
 
     a:last-child {
-      display: none;
+      display: block;
     }
   }
 `;

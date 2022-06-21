@@ -12,15 +12,13 @@ export default function Home() {
     
     <Container>
       <HeroFlex align="flex-start">
-      <ContentWrapper>
         <Image
           src={ProfilePicture}
           alt="Picture of Caitlin's Art"
           width="300px"
           height="300px"
         />
-        </ContentWrapper>
-        <ContentWrapper> 
+        <ContentWrapper>
           <h1>Caitlin Hulsey</h1>
           <h2>artist, programmer, writer</h2>
         </ContentWrapper>
