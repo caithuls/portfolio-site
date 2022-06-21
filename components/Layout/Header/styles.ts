@@ -13,7 +13,7 @@ export const StickyNav = styled.nav<StringProps>`
     darkTheme ? COLOR_DARK_PURPLE : COLOR_WHITE};
 
   a {
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     color: ${({ darkTheme }) => (darkTheme ? COLOR_DARK_GRAY : COLOR_DARK_PURPLE)};
     transition: all 0.3s;
 
@@ -48,7 +48,7 @@ export const StickyNav = styled.nav<StringProps>`
 
 export const Wrapper = styled(Flex)<WrapperProps>`
   position: relative;
-  padding: 3rem 0;
+  padding: 2rem 0;
 
   a:not(:first-child) {
     padding: 1rem;

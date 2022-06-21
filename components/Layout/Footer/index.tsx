@@ -28,16 +28,16 @@ export const Footer = ({ darkTheme }: StringProps) => {
           <GridContainer>
             <FlexLinks>
               <a href="mailto:caithuls8@gmail.com" title="Email">
-                <i><MdEmail size="40" /></i>
+                <i><MdEmail size="30" /></i>
               </a>
               <a href="https://www.etsy.com/shop/caithuls" title="Etsy">
-                <i><FaEtsy size="40" /></i>
+                <i><FaEtsy size="30" /></i>
               </a>
               <a href="https://twitter.com/caithuls" title="Twitter">
-                <i><FaTwitter size="40" /></i>
+                <i><FaTwitter size="30" /></i>
               </a>
               <a href="https://www.instagram.com/caithuls/" title="Instagram">
-                <i><FaInstagram size="40" /></i>
+                <i><FaInstagram size="30" /></i>
               </a>
               </FlexLinks>
             <p>Caitlin Hulsey 2022</p>

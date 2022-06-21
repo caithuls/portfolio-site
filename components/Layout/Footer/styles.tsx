@@ -27,6 +27,7 @@ export const FooterContainer = styled.footer<StringProps>`
   }
 
   p {
+    margin-left: 1rem;
     color: ${({ darkTheme }) => (darkTheme ? COLOR_DARK_GRAY : COLOR_DARK_PURPLE)};
     position: absolute;
     right: 0px;
@@ -35,7 +36,7 @@ export const FooterContainer = styled.footer<StringProps>`
   }
 
   a {
-    margin-left: 2rem;
+    margin-left: 1rem;
     color: ${({ darkTheme }) => (darkTheme ? COLOR_DARK_GRAY : COLOR_DARK_PURPLE)};
     transition: all 0.3s;
 
