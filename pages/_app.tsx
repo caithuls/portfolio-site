@@ -1,38 +1,16 @@
-import type { AppProps } from "next/app";
-import router from "next/router";
-import { ThemeProvider } from "next-themes";
-import { Transition } from "components/Layout/Transition";
+import '../styles/globals.css'
+import type { AppProps } from 'next/app'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
-import { GlobalStyle } from "styles/globalStyles";
-import "styles/nprogress.css";
-import "public/assets/fonts/style.css";
-
-const NProgress = require("nprogress");
-NProgress.configure({ showSpinner: false });
-
-let progressBarTimeout: NodeJS.Timeout;
-
-const startProgressBar = () => {
-  clearTimeout(progressBarTimeout);
-  progressBarTimeout = setTimeout(NProgress.start, 200);
-};
-
-const stopProgressBar = () => {
-  clearTimeout(progressBarTimeout);
-  NProgress.done();
-};
-
-router.events.on("routeChangeStart", startProgressBar);
-router.events.on("routeChangeComplete", stopProgressBar);
-router.events.on("routeChangeError", stopProgressBar);
-
-export default function App({ Component, pageProps, router }: AppProps) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider>
-      <GlobalStyle />
-      <Transition location={router.pathname}>
-        <Component {...pageProps} />
-      </Transition>
-    </ThemeProvider>
-  );
+    <>
+      <Header/>
+      <Component {...pageProps} />
+      <Footer/>
+    </>
+  )
 }
+
+export default MyApp

@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "name": "Lake",
+        "src": "/art/lake.png",
+        "size": "9in x 10.75in (22.86cm x 27.3cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/lake/"
+    },
+    {
+        "id": 1,
+        "name": "A Good Morning",
+        "src": "/art/agoodmorning.png",
+        "size": "24in x 24in (60.96cm x 60.96cm)",
+        "materials": "Acrylic paint on stretched canvas",
+        "url":"https://www.inprnt.com/gallery/caithuls/a-good-morning/"
+    },
+    {
+        "id": 2,
+        "name": "Dreamscape",
+        "src": "/art/dreamscape.png",
+        "size": "9in x 12in (22.86cm x 30.48cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/dreamscape/"
+    },
+    {
+        "id": 3,
+        "name": "Hanging On",
+        "src": "/art/hangingon.png",
+        "size": "11in x 15in (27.94cm x 38.1cm)",
+        "materials": "Acrylic paint on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/hanging-on/"
+    },
+    {
+        "id": 4,
+        "name": "The Bubble Machine",
+        "src": "/art/thebubblemachine.png",
+        "size": "12in x 9in (30.48cm x 22.86cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/the-bubble-machine/"
+    },
+    {
+        "id": 5,
+        "name": "I Think Thoughts",
+        "src": "/art/ithinkthoughts.png",
+        "size": "11in x 14in (27.94cm x 35.56cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/i-think-thoughts/"
+    },
+    {
+        "id": 6,
+        "name": "Sour Candy",
+        "src": "/art/sourcandy.png",
+        "size": "9in x 12in (22.86cm x 30.48cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/sour-candy/"
+    },
+    {
+        "id": 7,
+        "name": "Reef",
+        "src": "/art/reef.png",
+        "size": "9in x 12in (22.86cm x 30.48cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/reef/"
+    },
+    {
+        "id": 8,
+        "name": "Stretch",
+        "src": "/art/stretch.png",
+        "size": "9in x 12in (22.86cm x 30.48cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/stretch/"
+    },
+    {
+        "id": 9,
+        "name": "Grow",
+        "src": "/art/grow.png",
+        "size": "11in x 14in (27.94cm x 35.56cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/grow/"
+    },
+    {
+        "id": 10,
+        "name": "Bend",
+        "src": "/art/bend.png",
+        "size": "9in x 12in (22.86cm x 30.48cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/bend/"
+    },
+    {
+        "id": 11,
+        "name": "Break Through",
+        "src": "/art/breakthrough.png",
+        "size": "9in x 12in (22.86cm x 30.48cm)",
+        "materials": "Marker and pen on paper",
+        "url":"https://www.inprnt.com/gallery/caithuls/break-through/"
+    }
+]
