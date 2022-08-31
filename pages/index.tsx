@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Caitlin Hulsey</title>
         <link rel="icon" href="/folds.png" />
+        <meta property="og:image" content={"/folds.png"} />
       </Head>
       <div className="container lg:space-x-5 lg:flex lg:flex-row flex flex-col-reverse text-center">
         <div className="flex-shrink">
